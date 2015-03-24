@@ -3,6 +3,7 @@
 ## Components:
 
 ### Recipe
+* ID
 * Name
 * --Occasion(s) List--
 * --Photo(s) List--
@@ -21,6 +22,7 @@
 * --Measure--
 
 ### Ingredient
+* ID
 * Name
 * Proof
 * Base measure
@@ -37,10 +39,12 @@
 * Author
 
 ### Occasion
+* ID
 * Name
 * Description
 
 ### Spirit
+* ID
 * Name
 * Description
 
@@ -55,7 +59,7 @@
 
 
 
-## For Backbone:
+## Backbone models:
 
 * RecipesList
 * Recipe
