@@ -57,24 +57,24 @@
 
 ## For Backbone:
 
-### RecipesList
-### Recipe
+* RecipesList
+* Recipe
 
-### RecipeIngredientsList
-### RecipeIngredient
+* RecipeIngredientsList
+* RecipeIngredient
 
-### Ingredient
+* Ingredient
 
-### Measure
+* Measure
 
-### OccasionsList
-### Occasion
+* OccasionsList
+* Occasion
 
-### SpiritsList
-### Spirit
+* SpiritsList
+* Spirit
 
-### StepsList
-### Step
+* StepsList
+* Step
 
-### SharingLinksList
-### SharingLink
+* SharingLinksList
+* SharingLink
