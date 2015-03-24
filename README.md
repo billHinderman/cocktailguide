@@ -52,3 +52,29 @@
 * Name
 * Alt
 * Display text/icon
+
+
+
+## For Backbone:
+
+### RecipesList
+### Recipe
+
+### RecipeIngredientsList
+### RecipeIngredient
+
+### Ingredient
+
+### Measure
+
+### OccasionsList
+### Occasion
+
+### SpiritsList
+### Spirit
+
+### StepsList
+### Step
+
+### SharingLinksList
+### SharingLink
