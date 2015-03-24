@@ -11,6 +11,7 @@
 * Glass
 * Time
 * --Steps list--
+* --Sharing links list--
 * Blurb
 * Social blurb
 
@@ -45,3 +46,9 @@
 
 ### Step
 * Content
+
+### Sharing link
+* Link
+* Name
+* Alt
+* Display text/icon
