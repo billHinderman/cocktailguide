@@ -29,13 +29,13 @@
 * Type (for conversion?)  
 
 ### Photo
- * Src
- * Size
- * Author
+* Src
+* Size
+* Author
 
 ### Occasion
-  Name
-  Description
+* Name
+* Description
 
 ### Spirit
 * Name
