@@ -22,6 +22,8 @@
 ### Ingredient
 * Name
 * Proof
+* Base measure
+* Calories per [base measure]
 * Color
 
 ### Measure
