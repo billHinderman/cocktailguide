@@ -1,0 +1,80 @@
+/************************************************************
+VARS
+************************************************************/
+/******************************
+Colors
+******************************/
+$white: #fdfdfd;
+$greyDk: #333333;
+$greyLt: #f0f0f0;
+$greyMd: #bdc3c7;
+$black: #231f20;
+$sbg_yellow: #f1c40f;
+
+$blue: #2196F3;
+$brown: #795548;
+$green: #4CAF50;
+$orange: #FF9800;
+$pink: #E91E63;
+$purple: #9C27B0;
+$red: #F44336;
+$yellow: #FFEB3B;
+
+$dark_blue: #2962FF;
+$dark_brown: #5D4037;
+$dark_green: #388E3C;
+$dark_orange: #FF6D00;
+$dark_pink: #C51162;
+$dark_purple: #7B1FA2;
+$dark_red: #D50000;
+$dark_yellow: #FBC02D;
+
+$light_blue: #90CAF9;
+$light_brown: #BCAAA4;
+$light_green: #A5D6A7;
+$light_orange: #FFCC80;
+$light_pink: #F48FB1;
+$light_purple: #CE93D8;
+$light_red: #EF9A9A;
+$light_yellow: #FFF59D;
+/******************************
+Sizes
+******************************/
+$small: 380px;
+$s-m: 640px;
+$medium: 768px;
+$m-l: 960px;
+$large: 1024px;
+$xl: 1280px;
+
+/******************************
+Fonts
+******************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+
+$heading: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$sans: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: "Baskerville", "calluna", Georgia, Times, "Times New Roman", serif;
+
+/******************************
+Transition
+******************************/
+$transition-standard: .3s cubic-bezier(0.905, 0.015, 0.65, 0.97) 0s;
+$transition-static: .3s;
+
+@mixin transition($transition: all .3s) {
+  -webkit-transition: $transition;  
+  -moz-transition: $transition;
+  -ms-transition: $transition; 
+  -o-transition: $transition;  
+  transition: $transition;
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;  
+  -moz-transform: $transform;
+  -ms-transform: $transform; 
+  -o-transform: $transform;  
+  transform: $transform;
+}

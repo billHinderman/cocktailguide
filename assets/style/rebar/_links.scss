@@ -1,0 +1,27 @@
+/************************************************************
+LINKS
+************************************************************/
+/******************************
+Base
+******************************/
+a, .link,
+a:visited, .link:visited {
+  
+  text-decoration: none;
+  @include transition(all $transition-static);
+  &:active,
+  &:hover {
+    
+  }
+
+  &[rel^="external"],
+  &[rel*=" external"],
+  &[target^="blank"],
+  &[target*="blank "],
+  &:not([href*="starbasego.com"]),
+  &:not([href^="/"]),
+  &:not([href^="#"]),
+  &.external {
+    
+  }
+}

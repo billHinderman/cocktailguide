@@ -1,0 +1,120 @@
+/************************************************************
+BUTTONS
+************************************************************/
+/******************************
+Base
+******************************/
+button, 
+.button, 
+input[type="submit"], 
+.submit:visited, 
+.button:visited {
+  background: $greyLt;
+  border: none;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+  display: block;
+  letter-spacing: 1px;
+  margin: 0 auto 1em;
+  max-width: 12.5em;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  @include transition(all $transition-static);
+  &:hover {
+    background: darken($greyLt, 5%);
+    color: $white;
+  }
+}
+
+/******************************
+States
+******************************/
+button.disabled, button:disabled,
+.button.disabled, .button:disabled,
+submit.disabled, submit:disabled,
+.submit.disabled, .submit:disabled {
+  background: $greyLt;
+  color: $greyMd;
+  cursor: default;
+}
+
+.toggle {
+  background: $white;
+  border: 1px solid $white;
+  border-radius: .83em;
+  display: inline-block;
+  font-size: .83em;
+  overflow: hidden;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 .25em;
+  padding: .25em 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 5em;
+}
+.toggle.on .on {
+  margin-left: 0;
+}
+.toggle.off .on {
+  margin-left: -5.25em;
+}
+.toggle.on {
+  background: $greyLt;
+}
+.toggle.off {
+  background: $greyLt;
+}
+.toggle.on:hover {
+  background: $white;
+  .toggle-option {
+    color: $black;
+    &:after {
+      background: $greyLt;
+    }
+  }
+}
+.toggle.off:hover {
+  background: $white;
+  .toggle-option {
+    color: $black;
+    &:after {
+      background: $greyLt;
+    }
+  }
+}
+.toggle-option {
+  color: $white;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  position: relative;
+  width: 5em;
+  @include transition(all $transition-static);
+  &:after {
+    background: $white;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: .75em;
+    position: absolute;
+    top: .06em;
+    width: .75em;
+    @include transition(background $transition-static);
+  }
+}
+.toggle-option.on {
+  padding: 0 1.75em 0 .25em;
+  &:after {
+    right: .5em;
+  }
+}
+.toggle-option.off {
+  padding: 0 .25em 0 1.75em;
+  &:after {
+    left: .5em;
+  }
+}

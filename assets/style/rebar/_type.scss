@@ -1,0 +1,137 @@
+/************************************************************
+TYPOGRAPHY
+************************************************************/
+
+/******************************
+Default
+******************************/
+body {
+  color: $white;
+  font-family: $sans;
+  font-size: 1em;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/******************************
+Font Options
+******************************/
+.f-heading {
+  font-family: $heading;
+}
+.f-mono {
+  font-family: $mono;
+}
+.f-sans {
+  font-family: $sans;
+}
+.f-serif {
+  font-family: $serif;
+}
+
+/******************************
+Headers
+******************************/
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+
+}
+
+h1, .h1 {
+  font-size: 3em;
+}
+
+h2, .h2 {
+  font-size: 2em;
+}
+
+h3, .h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h4 .h4 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+h5, .h5 {
+
+}
+
+h6, .h6 {
+  font-size: .75em;
+  font-weight: bold;
+}
+
+/******************************
+Aside
+******************************/
+aside,
+ .aside {
+  background: $greyLt;
+  color: $black;
+  font-size: .75em;
+  margin-top: 1em;
+  padding: .25em 1em;
+}
+
+/******************************
+Quote
+******************************/
+blockquote, 
+q, 
+.blockquote,
+.quote {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 1em .5em;
+  &.callout {
+    border-left: 1px dotted $greyMd;
+    padding-left: .5em;
+  }
+
+  small, .small {
+    font-size: .5em;
+    margin-left: 1em;
+  }
+}
+
+/******************************
+Address
+******************************/
+address, 
+.address {
+  margin: .5em 0;
+}
+
+/******************************
+Code
+******************************/
+code, 
+pre,
+.code,
+.pre {
+  display: block;
+  font-family: $mono;
+  font-size: 1.25em;
+  margin: .5em 0;
+
+  &.callout {
+    border: 1px dotted $greyMd;
+    padding: .5em;
+  }
+}
+
+/******************************
+Misc
+******************************/
+.amp {
+  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif;
+  font-style: italic;
+  font-weight: normal;
+}
